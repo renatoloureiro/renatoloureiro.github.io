@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-03T02:19:47+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Renato Loureiro</title><subtitle>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&quot;&gt; &lt;style&gt;   .fa {  
+  padding: 10px;    
+  margin: 2px 2px;  
+  font-size: 20px;  
+  width: 20px;  
+}   p{
+  margin-top:0px;
+}
+p.small{
+  line-height:1;
+} h3{
+  margin-bottom:1px;
+} h5{
+  margin-bottom:1px;
+} h4{
+  margin-bottom:1px;
+} &lt;/style&gt;  
+
+
+&lt;h3&gt;Engineering Student at IST &lt;/h3&gt; 
+&lt;p class=&quot;small&quot;&gt;Lisbon, Portugal &lt;br&gt; &lt;/p&gt;
+&lt;span class=&quot;tab&quot; style=&quot;margin-left: 30px&quot; &gt;&lt;/span&gt;&lt;a href=&quot;/pdf/sample_presentation.pdf&quot; class=&quot;fa fa-file&quot;&gt; &lt;/a&gt; Curriculum Vitae
+
+&lt;h4 style=&quot;margin-top: 10px&quot;&gt;Interests&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Nonlinear Control&lt;/li&gt;
+  &lt;li&gt;Computer Vision&lt;/li&gt;
+  &lt;li&gt;Software development and applied mathematics&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;footer&gt; &lt;div style=&quot;text-align:center&quot;&gt; &lt;h5&gt;social media pages&lt;/h5&gt; &lt;a href=&quot;https://www.linkedin.com/in/renato-loureiro-68639514b/&quot;&gt; &lt;i class=&quot;fa fa-linkedin-square&quot;&gt;&lt;/i&gt; &lt;/a&gt; &lt;a href=&quot;#&quot; class=&quot;fa fa-github&quot;&gt; &lt;/a&gt;    &lt;a href=&quot;mailto: renato.loureiro@tecnico.ulisboa.pt&quot; class=&quot;fa fa-envelope&quot;&gt; &lt;/a&gt; &lt;a href=&quot;#&quot; class=&quot;fa fa-twitter&quot;&gt; &lt;/a&gt; &lt;/div&gt; &lt;/footer&gt;
+</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2021/07/29/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-07-29T23:51:11+01:00</published><updated>2021-07-29T23:51:11+01:00</updated><id>http://localhost:4000/jekyll/update/2021/07/29/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2021/07/29/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
