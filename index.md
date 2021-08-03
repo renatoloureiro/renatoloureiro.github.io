@@ -18,7 +18,7 @@
 </div>
 ---
 
-#### [One week in IPHO](/pdf/sample_presentation.pdf)
+### One week in IPHO
 
 <img src="images/ipho.png?raw=true"/>
 
