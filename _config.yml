@@ -33,7 +33,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   
   <p class="small">Lisbon, Portugal <br> </p>
 
-  <span class="tab" style="margin-left: 30px" ></span><a href="/pdf/sample_presentation.pdf" class="fa fa-file"> </a> Curriculum Vitae
+  <span class="tab" style="margin-left: 30px" ></span><a href="/pdf/CV.pdf" class="fa fa-file"> </a> Curriculum Vitae
   
 
   <h4 style="margin-top: 10px">Interests</h4>
@@ -50,9 +50,9 @@ description: > # your text below (remove <br> elements if you don't need line br
   <div style="text-align:center">
   <h5>social media pages</h5>
   <a href="https://www.linkedin.com/in/renato-loureiro-68639514b/"> <i class="fa fa-linkedin-square"></i> </a>
-  <a href="#" class="fa fa-github"> </a>   
+  <a href="https://github.com/renatoloureiro/" class="fa fa-github"> </a>   
   <a href="mailto: renato.loureiro@tecnico.ulisboa.pt" class="fa fa-envelope"> </a>
-  <a href="#" class="fa fa-twitter"> </a>
+  <a href="https://mobile.twitter.com/RenatoBLoureir1" class="fa fa-twitter"> </a>
   </div>
   </footer>
   
