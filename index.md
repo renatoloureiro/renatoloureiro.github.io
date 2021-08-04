@@ -8,15 +8,11 @@
   </select>
 </div>
 
-<p align="center"> 
-  <img src="https://komarev.com/ghpvc/?username=GITHUB-USERNAME&label=Profile%20views&color=ce9927&style=flat" alt="renatoloureiro.github.io" /> 
-</p>
-
-![](https://komarev.com/ghpvc/?username=renatoloureiro.github.io)
-
-<img src="https://komarev.com/ghpvc/?username=renatoloureiro">
+<!-- <img src="https://komarev.com/ghpvc/?username=renatoloureiro"> -->
 
 <img src="https://hitcounter.pythonanywhere.com/count/tag.svg" alt="Hits">
+
+![](https://hit.yhype.me/github/profile?user_id=32690309)
 
 
 ## Activities
