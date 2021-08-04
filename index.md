@@ -1,21 +1,12 @@
 <!-- ## Personal Website 
 
 --- -->
-<div style="text-align:right">
-  <select class="selectpicker" data-width="fit">
-      <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
-    <option  data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
-  </select>
-</div>
-
-<!-- <img src="https://komarev.com/ghpvc/?username=renatoloureiro"> -->
-
-<img src="https://hitcounter.pythonanywhere.com/count/tag.svg" alt="Hits">
-
-![](https://hit.yhype.me/github/profile?user_id=32690309)
 
 
 ## Activities
+<img src="https://hitcounter.pythonanywhere.com/count/tag.svg" alt="Hits">
+
+![](https://komarev.com/ghpvc/?username=renatoloureiro)
 
 ### UAV-art, a project full of new discoveries [<img src="images/link1.jpg?raw=true" style="width: 3%"/>](/page_fst)
 <p>2021-present</p>
