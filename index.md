@@ -14,6 +14,11 @@
 
 ![](https://komarev.com/ghpvc/?username=renatoloureiro.github.io)
 
+<img src="https://komarev.com/ghpvc/?username=renatoloureiro">
+
+<img src="https://hitcounter.pythonanywhere.com/count/tag.svg" alt="Hits">
+
+
 ## Activities
 
 ### UAV-art, a project full of new discoveries [<img src="images/link1.jpg?raw=true" style="width: 3%"/>](/page_fst)
