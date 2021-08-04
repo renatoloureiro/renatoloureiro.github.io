@@ -31,3 +31,23 @@ if (isAwesome){
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+<style>
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+.next {
+  background-color: #f1f1f1;
+  color: black;
+}
+.round {
+  border-radius: 50%;
+}
+</style> 
+
+---
+<div style="text-align:center">
+    <a style="text-decoration: none;" style="display: inline-block;" style="padding: 8px 16px;" href="/sample_page"  class="previous round">&#8249;  </a>
+    <a style="text-decoration: none;" style="display: inline-block;" style="padding: 8px 16px;" href="/sample_page" class="next round">&#8250;</a>
+</div>

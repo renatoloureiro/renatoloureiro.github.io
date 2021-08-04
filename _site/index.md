@@ -1,15 +1,25 @@
-## Personal Website
+<!-- ## Personal Website 
 
----
+--- -->
+<div style="text-align:right">
+  <select class="selectpicker" data-width="fit">
+      <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+    <option  data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
+  </select>
+</div>
+
+<p align="center"> 
+  <img src="https://komarev.com/ghpvc/?username=GITHUB-USERNAME&label=Profile%20views&color=ce9927&style=flat" alt="GITHUB-USERNAME" /> 
+</p>
 
 
 ## Activities
 
-### UAV-art, a project full of new discoveries [<img src="images/link.png?raw=true" style="width: 3%"/>](http://google.com.au/)
+### UAV-art, a project full of new discoveries [<img src="images/link1.jpg?raw=true" style="width: 3%"/>](/page_fst)
 <p>2021-present</p>
 
 <div style="text-align:center">
-    <img src="images/UAV.png?raw=true"  style="width: 50%"/>
+    <img src="images/UAV1.png?raw=true"  style="width: 60%"/>
 </div>
 ---
 
@@ -49,12 +59,7 @@
 
 
 
-<!-- <style>
-a {
-  text-decoration: none;
-  display: inline-block;
-  padding: 8px 16px;
-} -->
+
 <style>
 .previous {
   background-color: #f1f1f1;
@@ -71,9 +76,11 @@ a {
 
 ---
 <div style="text-align:center">
-    <a style="text-decoration: none;" style="display: inline-block;" style="padding: 8px 16px;" href="#"  class="previous round">&#8249;  </a>
-    <a style="text-decoration: none;" style="display: inline-block;" style="padding: 8px 16px;" href="#" class="next round">&#8250;</a>
+    <a style="text-decoration: none;" style="display: inline-block;" style="padding: 8px 16px;" href="/sample_page"  class="previous round">&#8249;  </a>
+    &emsp;  &ensp;
+    <a style="text-decoration: none;" style="display: inline-block;" style="padding: 8px 16px;" href="/page_fst" class="next round">&#8250;</a>
 </div>
 
 <!-- <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
+
