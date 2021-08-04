@@ -4,9 +4,14 @@
 
 
 ## Activities
-<img src="https://hitcounter.pythonanywhere.com/count/tag.svg" alt="Hits">
 
-![](https://komarev.com/ghpvc/?username=renatoloureiro)
+<p align="left">
+  <img src="https://img.shields.io/badge/status-down-red" />
+  <img src="https://img.shields.io/badge/last%20update%20-August%202021-blue" />
+  <img src="https://hitcounter.pythonanywhere.com/count/tag.svg" alt="Hits" style="border-radius:2px;" />
+  <!-- ![fluxo de trabalho de exemplo](https://img.shields.io/badge/status-updated-brightgreen)
+  ![fluxo de trabalho de exemplo](https://img.shields.io/badge/status-down-red) -->
+</p>
 
 ### UAV-art, a project full of new discoveries [<img src="images/link1.jpg?raw=true" style="width: 3%"/>](/page_fst)
 <p>2021-present</p>
