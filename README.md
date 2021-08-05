@@ -39,3 +39,4 @@ ___
 
 [1] Jekyll theme "Minimal" for GitHub Pages: https://github.com/pages-themes/minimal 
 <br>[2] To make github Badges: https://github.com/badges/shields, https://shields.io/ & https://github.com/Ileriayo/markdown-badges
+<br>[3] The fontawesome package: http://mirrors.ibiblio.org/CTAN/fonts/fontawesome/doc/fontawesome.pdf & https://fontawesome.com/v5/cheatsheet/free/brands
