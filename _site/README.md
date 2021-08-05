@@ -38,4 +38,4 @@ ___
 ### References
 
 [1] Jekyll theme "Minimal" for GitHub Pages: https://github.com/pages-themes/minimal 
-<br>[2] To make github Badges: https://github.com/badges/shields & https://shields.io/
+<br>[2] To make github Badges: https://github.com/badges/shields, https://shields.io/ & https://github.com/Ileriayo/markdown-badges

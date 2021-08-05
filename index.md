@@ -1,7 +1,23 @@
 <!-- ## Personal Website 
 
 --- -->
-
+<style>
+  :root {
+  --body-bg: #fafafa;
+  --body-color: #555;
+  --link-color: #3366BB;
+}
+ 
+body {
+  background-color: var(--body-bg);
+  color: var(--body-color);
+}
+ 
+a {
+  color: var(--link-color);
+}
+ 
+</style>
 
 ## Activities
 
@@ -12,6 +28,7 @@
   <!-- ![fluxo de trabalho de exemplo](https://img.shields.io/badge/status-updated-brightgreen)
   ![fluxo de trabalho de exemplo](https://img.shields.io/badge/status-down-red) -->
 </p>
+
 
 ### UAV-art, a project full of new discoveries [<img src="images/link1.jpg?raw=true" style="width: 3%"/>](/page_fst)
 <p>2021-present</p>
