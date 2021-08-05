@@ -56,6 +56,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://mobile.twitter.com/RenatoBLoureir1" class="fa fa-twitter"> </a>
   </div>
   </footer>
-  
+
+error: down 
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here

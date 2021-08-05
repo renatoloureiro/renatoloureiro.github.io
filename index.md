@@ -1,6 +1,23 @@
 <!-- ## Personal Website 
 
 --- -->
+
+{% if site.error=="down" %}
+
+<div class="container">
+  <!-- <h1>404</h1> -->
+  <div style="text-align:center">
+    <img src="images/work.png?raw=true"  style="width: 60%"/>
+  </div>
+  <p><strong>The website is currently under maintenance and updates :(</strong></p>
+  <p>Check back soon ...</p>
+</div>
+
+<!-- <iframe src="404.html" seamless></iframe> -->
+
+{% else%}
+
+
 <style>
   :root {
   --body-bg: #fafafa;
@@ -99,3 +116,4 @@ a {
 <!-- <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
 
+{% endif %}
