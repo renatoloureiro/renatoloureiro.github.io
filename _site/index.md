@@ -47,7 +47,7 @@ a {
 </p>
 
 
-### UAV-art, a project full of new discoveries [<img src="images/link1.jpg?raw=true" style="width: 3%"/>](/page_fst)
+### UAV-art, a project full of new discoveries [<img src="images/link1.jpg?raw=true" style="width: 3%"/>](/page_UAV)
 <p>2021-present</p>
 
 <div style="text-align:center">
@@ -56,20 +56,20 @@ a {
 ---
 
 
-### My journey in FST Lisboa [<img src="images/link.png?raw=true" style="width: 3%"/>](http://google.com.au/)
+### My journey in FST Lisboa [<img src="images/link1.jpg?raw=true" style="width: 3%"/>](/page_fst)
 <p>2019-2020</p>
 
 <img src="images/fst_car.jpg?raw=true"/>
 
 ---
 
-### One week in IPHO [<img src="images/link.png?raw=true" style="width: 3%"/>](http://google.com.au/)
+### One week in IPHO [<img src="images/link1.jpg?raw=true" style="width: 3%"/>](http://google.com.au/)
 <p>Summer 2018</p>
 
 <img src="images/ipho.png?raw=true"/>
 
 ---
-### Cooperation between Countries [<img src="images/link.png?raw=true" style="width: 3%"/>](http://google.com.au/)
+### Cooperation between Countries [<img src="images/link1.jpg?raw=true" style="width: 3%"/>](http://google.com.au/)
 <p>Summer 2018</p>
 
 <img src="images/Erasmus_plus.jpg?raw=true"/>
