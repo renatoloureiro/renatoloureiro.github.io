@@ -1,0 +1,68 @@
+.news-table th,
+.news-table td {
+  border-collapse: collapse !important; /* removes double borders */
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0.75rem 0.5rem;
+  vertical-align: top;
+}
+
+.news-date {
+  text-align: left;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.news-date .day {
+  font-size: 0.95rem;
+}
+
+.news-date .year {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.news-content {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.news-content a,
+.news-content a.news-title {
+  color: #e63946;
+  text-decoration: none;
+}
+
+.news-content a:hover {
+  text-decoration: underline;
+}
+
+.news-title-heading {
+  color: #e63946;
+  /*text-transform: lowercase;*/
+  font-weight: 600;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  margin-bottom: 1rem;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.news {
+  border-top: none !important;
+  box-shadow: none !important;
+  margin-top: 0; /* remove top margin */
+}
+
+.table-responsive {
+  border: none !important;
+  box-shadow: none !important;
+  margin-top: 0; /* remove margin if any */
+  padding-top: 0; /* remove padding if any */
+}
+
+.news-table {
+  border: none !important;
+  box-shadow: none !important;
+  border-collapse: collapse !important; /* remove spacing around cells */
+}

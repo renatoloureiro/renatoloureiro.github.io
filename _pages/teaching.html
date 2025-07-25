@@ -1,12 +1,56 @@
 ---
 layout: archive
-title: "Teaching"
+title:
 permalink: /teaching/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<section id="supervised-students">
+  <h2 style="font-size: 1.2em;"> Supervised Students </h2>
+  <h3>Master Theses</h3>
+  <ul>
+    {% assign master_students = site.data.students | where: "degree", "Master" | sort: "year" | reverse %}
+    {% for student in master_students %}
+      <li><strong>{{ student.name }}</strong> — {{ student.thesis }} ({{ student.year }})</li>
+    {% endfor %}
+  </ul>
+
+  {% assign bachelor_students = site.data.students | where: "degree", "Bachelor" | sort: "year" | reverse %}
+  {% if bachelor_students.size > 0 %}
+    <h3>Bachelor Theses</h3>
+    <ul>
+      {% for student in bachelor_students %}
+        <li><strong>{{ student.name }}</strong> — "{{ student.thesis }}" ({{ student.year }})</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</section>
+
+<h2 style="font-size: 1.2em;"> Teaching Experience </h2>
+
+{% assign grouped_teaching = site.teaching | group_by_exp:"item", "item.title | append: '___' | append: item.type" %}
+
+<ul class="teaching-list news-content">
+  {% for group in grouped_teaching %}
+    {% assign parts = group.name | split: "___" %}
+    {% assign course_title = parts[0] %}
+    {% assign course_type = parts[1] %}
+    {% assign sorted_posts = group.items | sort: "date" %}
+
+    <li>
+      {% if sorted_posts[0].class_url %}
+        <strong><a href="{{ sorted_posts[0].class_url }}" target="_blank" rel="noopener noreferrer">{{ course_title }}</a></strong>
+      {% else %}
+        <strong>{{ course_title }}</strong>
+      {% endif %}
+      ({{ course_type }}):
+      <ul>
+        {% for post in sorted_posts %}
+          <li>{{ post.semester }}</li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,41 @@
+<h2 class="news-title-heading"><i class="fas fa-bullhorn" aria-hidden="true"></i> News</h2>
+
+<div class="news">
+  {% if site.news != blank %}
+    {% assign news_size = site.news | size %}
+    <div
+      class="table-responsive"
+      {% if include.limit and site.announcements.scrollable and news_size > 3 %}
+        style="max-height: 60vw; overflow-y: auto;"
+      {% endif %}
+    >
+      <table class="table table-sm news-table">
+        {% assign news = site.news | reverse %}
+        {% if include.limit and site.announcements.limit %}
+          {% assign news_limit = site.announcements.limit %}
+        {% else %}
+          {% assign news_limit = news_size %}
+        {% endif %}
+        {% for item in news limit: news_limit %}
+          <tr>
+            <th scope="row" style="width: 100px; white-space: nowrap;">
+              <div class="news-date">
+                <div class="day">{{ item.date | date: "%b %d" }}</div>
+                <div class="year">{{ item.date | date: "%Y" }}</div>
+              </div>
+            </th>
+            <td class="news-content">
+              {% if item.inline %}
+                <span>{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</span>
+              {% else %}
+                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
+</div>

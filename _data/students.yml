@@ -1,0 +1,21 @@
+#- name: Alice Müller
+#  thesis: "Path Planning for Autonomous Vehicles"
+#  degree: Bachelor
+#  year: 2024
+
+#- name: Max Meier
+#  thesis: "Trajectory Optimization with Constraints"
+#  degree: Bachelor
+#  year: 2021
+
+# ---------------------------------------------------
+
+- name: Nico Holzinger
+  thesis: "Robust Polynomial State Estimators: A Comprehensive Study Using Sum-of-Squares and Lyapunov Methods"
+  degree: Master
+  year: 2024
+
+- name: Fabio Schneider (on going)
+  thesis: 
+  degree: Master
+  year: 2025
