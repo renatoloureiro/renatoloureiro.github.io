@@ -11,14 +11,17 @@
     </span>
 
     <!-- Title -->
-    <div style="margin-top: 0.2em;">
-      <a href="{% if paper.links and paper.links[0] %}{{ paper.links[0].link }}{% else %}#{% endif %}" style="font-size: 0.9em; font-weight: bold; color: #000000; text-decoration: none;">
+    <div style="margin-top: 0.1em;">
+      <!-- <a href="{% if paper.links and paper.links[0] %}{{ paper.links[0].link }}{% else %}#{% endif %}" 
+      -->
+      <a
+      style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;  font-size: 0.9em; font-weight: 500; color: #000000; text-decoration: none;">
         {{ paper.title }}
       </a>
     </div>
 
     <!-- Authors -->
-    <div style="margin-top: 0.2em; font-size: 0.95em;">
+    <div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;margin-top: -0.1em; font-size: 0.95em;">
       {%- for a in paper.authors -%}
         {%- assign author = site.data.bibere.authors[a] -%}
         <span>
@@ -33,7 +36,7 @@
     </div>
 
     <!-- Venue and Date -->
-    <div style="font-style: italic; font-size: 0.9em; margin-top: 0.2em;">
+    <div style="font-style: italic; font-size: 0.9em; margin-top: -0.2em;">
       {%- assign venue = site.data.bibere.venues[paper.venue] -%}
       {% if paper.arxiv %}arXiv:{{ paper.arxiv }} [{{ paper.category }}], {% endif %}
       {% if venue %}{{ venue.name }}, {% endif %}{{ paper.month }} {{ paper.year }}
@@ -42,14 +45,42 @@
     <!-- Buttons -->
     <div style="margin-top: 0.5em;">
       {%- for item in paper.links -%}
-        <a href="{{ item.link }}" class="btn btn-default btn-sm" style="display: inline-block; background: rgb(227, 50, 34); border: 1px solid #ffffff; border-radius: 4px; padding: 2px 8px; font-size: 0.8em; margin-right: 5px; text-decoration: none;">
+        <a href="{{ item.link }}" class="togglereni" style="
+        display: inline-block;
+        background-color: white;
+        border: 1px solid black;       /* changed here */
+        border-radius: 2px;
+        padding: 4px 10px;
+        font-size: 0.75em;
+        text-transform: uppercase;
+        color: black;
+        text-decoration: none;
+        margin-right: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      ">
           {{ item.name }}
         </a>
       {%- endfor -%}
-      <a href="javascript:void(0);" onclick="$('#{{ clean_id }}_bibtex').slideToggle(200)" class="btn btn-default btn-sm" style="display: inline-block; background: rgb(227, 50, 34); border: 1px solid #ffffff; border-radius: 4px; padding: 2px 8px; font-size: 0.8em; margin-right: 5px; text-decoration: none; color: white;">BIB</a>
+      
+      <!--
+      <a href="javascript:void(0);" onclick="$('#{{ clean_id }}_bibtex').slideToggle(200)" class="togglereni" style="
+        display: inline-block;
+        background-color: white;
+        border: 1px solid black;       /* changed here */
+        border-radius: 2px;
+        padding: 4px 10px;
+        font-size: 0.75em;
+        text-transform: uppercase;
+        color: black;
+        text-decoration: none;
+        margin-right: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      ">BIB</a>
+        -->
     </div>
 
     <!-- BibTex Toggle -->
+    <!--
     <div style="margin-top: 0.3em;">
       <div class="collapse" id="{{ clean_id }}_bibtex" style="display:none; margin-top: 0.5em;">
         <div class="panel panel-info">
@@ -59,6 +90,7 @@
         </div>
       </div>
     </div>
+    -->
 
   </div>
 {%- else -%}

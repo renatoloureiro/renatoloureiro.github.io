@@ -126,3 +126,17 @@ $black:         #000000;
 .paper-entry a:hover {
   text-decoration: underline;
 }
+
+.togglereni {
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 4px 10px;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  margin-right: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
