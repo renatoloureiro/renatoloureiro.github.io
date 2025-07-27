@@ -16,7 +16,7 @@ I’m <strong>Renato</strong>, a researcher driven by a deep interest in the int
   <br><br>
   Before joining iFR, I obtained my M.Sc. in Aerospace Engineering from the University of Lisbon (<a href="https://tecnico.ulisboa.pt/en/">Instituto Superior Técnico</a>), specializing in flight dynamics and control. During my studies, I contributed to international research collaborations and gained hands-on experience in autonomous systems and flight control technologies.
   <br><br>
-  You can download my CV <a href="path/to/your-cv.pdf" target="_blank">here</a>.
+  You can download my CV <a href="/files/cv_25-07-28.pdf" target="_blank">here</a>.
 </div>
 
 {% include news-liquid.html %}

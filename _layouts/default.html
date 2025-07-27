@@ -18,12 +18,22 @@ layout: compress
 
     {{ content }}
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
+    <!-- <div class="page__footer"> -->
+      <footer style="
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;          
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 0.75em 0;
+        font-size: 0.5em;
+        z-index: 9999;">
+        © Copyright 2025 Renato Loureiro. Powered by Jekyll, AcademicPages. Hosted by GitHub Pages.
       </footer>
-    </div>
+    <!-- </div> -->
 
     {% include scripts.html %}
 

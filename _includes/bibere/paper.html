@@ -1,0 +1,99 @@
+{%- assign paper = site.data.bibere.papers[include.pid] -%}
+{%- if paper -%}
+  {%- capture clean_id -%}
+    {{ include.pid | replace: ":", "_" | replace: "-", "_" }}
+  {%- endcapture -%}
+  <div class="paper-entry" id="{{ clean_id }}" style="margin-bottom: 2em;">
+
+    <!-- Type Label -->
+    <span class="paper-label" style="display: inline-block; background-color: {% if paper.type == 'Pre-print' %}#c22eb4{% elsif paper.type == 'Conference' %}#00587a{% else %}#999{% endif %}; color: white; padding: 3px 8px; border-radius: 8px; font-size: 0.8em; font-weight: bold;">
+      {{ paper.type }}
+    </span>
+
+    <!-- Title -->
+    <div style="margin-top: 0.1em;">
+      <!-- <a href="{% if paper.links and paper.links[0] %}{{ paper.links[0].link }}{% else %}#{% endif %}" 
+      -->
+      <a
+      style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;  font-size: 0.9em; font-weight: 500; color: #000000; text-decoration: none;">
+        {{ paper.title }}
+      </a>
+    </div>
+
+    <!-- Authors -->
+    <div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;margin-top: -0.1em; font-size: 0.95em;">
+      {%- for a in paper.authors -%}
+        {%- assign author = site.data.bibere.authors[a] -%}
+        <span>
+        {%- if author -%}
+          {{ author.name.first }} {{ author.name.last }}
+        {%- else -%}
+          {{ a }}
+        {%- endif -%}
+        </span>
+        {%- unless forloop.last -%},&nbsp;{%- endunless -%}
+      {%- endfor -%}
+    </div>
+
+    <!-- Venue and Date -->
+    <div style="font-style: italic; font-size: 0.9em; margin-top: -0.2em;">
+      {%- assign venue = site.data.bibere.venues[paper.venue] -%}
+      {% if paper.arxiv %}arXiv:{{ paper.arxiv }} [{{ paper.category }}], {% endif %}
+      {% if venue %}{{ venue.name }}, {% endif %}{{ paper.month }} {{ paper.year }}
+    </div>
+
+    <!-- Buttons -->
+    <div style="margin-top: 0.5em;">
+      {%- for item in paper.links -%}
+        <a href="{{ item.link }}" class="togglereni" style="
+        display: inline-block;
+        background-color: white;
+        border: 1px solid black;       /* changed here */
+        border-radius: 2px;
+        padding: 4px 10px;
+        font-size: 0.75em;
+        text-transform: uppercase;
+        color: black;
+        text-decoration: none;
+        margin-right: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      ">
+          {{ item.name }}
+        </a>
+      {%- endfor -%}
+      
+      <!--
+      <a href="javascript:void(0);" onclick="$('#{{ clean_id }}_bibtex').slideToggle(200)" class="togglereni" style="
+        display: inline-block;
+        background-color: white;
+        border: 1px solid black;       /* changed here */
+        border-radius: 2px;
+        padding: 4px 10px;
+        font-size: 0.75em;
+        text-transform: uppercase;
+        color: black;
+        text-decoration: none;
+        margin-right: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      ">BIB</a>
+        -->
+    </div>
+
+    <!-- BibTex Toggle -->
+    <!--
+    <div style="margin-top: 0.3em;">
+      <div class="collapse" id="{{ clean_id }}_bibtex" style="display:none; margin-top: 0.5em;">
+        <div class="panel panel-info">
+          <pre class="panel-body details-panel">
+            {%- include bibere/bibtex.html pid=include.pid -%}
+          </pre>
+        </div>
+      </div>
+    </div>
+    -->
+
+  </div>
+{%- else -%}
+  <p class="text-danger">Paper with id {{include.pid}} not found!</p>
+  {{ error.standard_error }}
+{%- endif -%}
