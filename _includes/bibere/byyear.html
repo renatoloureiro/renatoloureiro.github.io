@@ -18,13 +18,13 @@
 "p[1].year" | sort: "name" | reverse %}
 
 
-<div class="news-content">
+<div class="news-content" style="font-size: 0.9em;">
 Publications (grouped by year): 
 {%- for year in years -%}
     {%- if forloop.first == false -%}
     , 
     {% endif %}
-    <a href="#{{ year.name }}" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 500; color: #000000; text-decoration: none;">{{ year.name }}</a>
+    <a href="#{{ year.name }}" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 500; color: #418de5; text-decoration: none;">{{ year.name }}</a>
 {%- endfor -%}
 .
 <hr>

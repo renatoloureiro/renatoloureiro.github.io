@@ -8,9 +8,9 @@ realtime:scitech25:
   venue: scitech
   year: 2025
   type: Conference
- # links:
- #   - name: PDF
- #     link: "https://arxiv.org/pdf/2404.14695.pdf"
+#  links:
+#    - name: PDF
+#      link: "https://arxiv.org/pdf/2404.14695.pdf"
 
 rroa:acc25:
   title: "Estimating Robust Regions of Attraction with Uncertain Equilibrium Points"

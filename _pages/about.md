@@ -9,7 +9,7 @@ redirect_from:
 
 <!-- <h2 class="news-title-heading"> About me </h2> -->
 
-<div class="news-content" style="text-align: justify;">
+<div class="news-content" style="text-align: justify; font-size: 0.9em;">
 I’m <strong>Renato</strong>, a researcher driven by a deep interest in the intersection of control theory, safety, and autonomy in aerospace systems. I am currently a Research Associate at the <a href="https://www.ifr.uni-stuttgart.de/">Institute of Flight Mechanics and Controls</a> (iFR) at the University of Stuttgart, where I work under the supervision of <a href="https://www.ifr.uni-stuttgart.de/institut/team/Fichter/">Prof. Dr.-Ing. Walter Fichter</a> and <a href="https://www.ifr.uni-stuttgart.de/en/institute/team/Cunis/">Dr. Torbj&oslash;rn Cunis</a>. My research focuses on cooperative guidance strategies and robust control for autonomous aerial systems operating in uncertain and dynamic environments.
   <br><br>
   My work integrates tools from optimal control, robust optimization, and multi-agent systems to enable safe and efficient coordination in uncertain and dynamic environments. I am especially interested in bridging theory and practice to support decision-making and autonomy in future aerospace applications.

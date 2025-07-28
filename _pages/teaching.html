@@ -8,9 +8,9 @@ author_profile: true
 {% include base_path %}
 
 <section id="supervised-students">
-  <h2 style="font-size: 1.2em;"> Supervised Students </h2>
+  <h2 style="font-size: 1.1em;"> Supervised Students </h2>
   <h3>Master Theses</h3>
-  <ul>
+  <ul style="font-size:0.9em;">
     {% assign master_students = site.data.students | where: "degree", "Master" | sort: "year" | reverse %}
     {% for student in master_students %}
       <li><strong>{{ student.name }}</strong> — {{ student.thesis }} ({{ student.year }})</li>
@@ -20,7 +20,7 @@ author_profile: true
   {% assign bachelor_students = site.data.students | where: "degree", "Bachelor" | sort: "year" | reverse %}
   {% if bachelor_students.size > 0 %}
     <h3>Bachelor Theses</h3>
-    <ul>
+    <ul style="font-size:0.9em;">
       {% for student in bachelor_students %}
         <li><strong>{{ student.name }}</strong> — "{{ student.thesis }}" ({{ student.year }})</li>
       {% endfor %}
@@ -28,11 +28,11 @@ author_profile: true
   {% endif %}
 </section>
 
-<h2 style="font-size: 1.2em;"> Teaching Experience </h2>
+<h2 style="font-size: 1.1em;"> Teaching Experience </h2>
 
 {% assign grouped_teaching = site.teaching | group_by_exp:"item", "item.title | append: '___' | append: item.type" %}
 
-<ul class="teaching-list news-content">
+<ul class="teaching-list news-content", style="font-size:0.9em">
   {% for group in grouped_teaching %}
     {% assign parts = group.name | split: "___" %}
     {% assign course_title = parts[0] %}

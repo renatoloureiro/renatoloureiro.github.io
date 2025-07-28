@@ -66,3 +66,59 @@
   box-shadow: none !important;
   border-collapse: collapse !important; /* remove spacing around cells */
 }
+
+
+// === Dark Mode Overrides ===
+body.dark {
+  .news-date {
+    color: #ddd;
+  }
+
+  .news-date .year {
+    color: #aaa;
+  }
+
+  .news-content {
+    color: #ccc;
+  }
+
+  .news-content a,
+  .news-content a.news-title {
+    color: #66aaff !important;
+  }
+
+  .news-title-heading {
+    color: #66aaff !important;
+  }
+
+  .news-table th,
+  .news-table td {
+    background-color: #121212;
+    color: #eee;
+  }
+
+  .table-responsive,
+  .news {
+    background-color: #121212;
+  }
+}
+
+.paper-title {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--title-color);
+}
+
+/* Light mode */
+:root {
+  --title-color: #000000;
+}
+
+/* Dark mode (prefers-color-scheme) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --title-color: #ffffff;
+  }
+}
