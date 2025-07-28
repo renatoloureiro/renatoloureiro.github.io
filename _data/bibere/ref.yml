@@ -1,0 +1,26 @@
+- ENTRYTYPE: mastersthesis
+  ID: Loureiro-Analysis-and-Comparison-of-Iterative-Bilinear-Sum-of-Squares-Region-of-Attraction-Estimation-Algorithms
+  abstract: A common system-theoretic problem for critical nonlinear dynamical systems
+    such as aerospace systems is the estimation of the region of attraction. A well
+    known approach to the problem relies on Lyapunov functions and invariant sets.
+    Several strategies using sum-of-squares relaxations and semi-algebraic optimizations
+    have been proposed, but a comparison of those strategies on benchmark problems
+    and a detailed characterization is lacking. Properties such as convergence, robustness
+    to initial guesses, computational issues and scalability have not been studied
+    in a clear way. So in this thesis, a set of problems is presented which builds
+    up a proposed test bench where different algorithms are to be characterized, compared
+    and tested, and where all those properties can be extracted. Results from the
+    most known and recent algorithms in the literature are presented as an application
+    of the test bench, alongside a new proposal involving the use of two adaptive
+    shape functions. Additionally, a proposal to estimate the region of attraction
+    through an iterative sum-of-squares approach is presented but in contrast with
+    the current literature, it is not based on Lyapunov theory but instead on the
+    Bendixson-Dulac criterion for planar dynamics and set invariance. Also, extensions
+    for higher dimensional systems are presented and discussed.
+  author: Loureiro, Renato Bastos
+  copyright: embargoed-access
+  language: eng
+  month: December
+  title: Analysis and Comparison of Iterative Bilinear Sum-of-Squares Region of Attraction
+    Estimation Algorithms
+  year: '2022'

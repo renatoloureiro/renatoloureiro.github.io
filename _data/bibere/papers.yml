@@ -1,0 +1,62 @@
+realtime:scitech25:
+  title: "Real-Time Cooperative Target Allocation for Guided Missiles: Leveraging Optimal Control and Multiple Trajectories"
+  authors:
+    - "renato"
+    - Marc Schneider
+    - Torbjoern Cunis
+    - Walter Fichter
+  venue: scitech
+  year: 2025
+  type: Conference
+ # links:
+ #   - name: PDF
+ #     link: "https://arxiv.org/pdf/2404.14695.pdf"
+
+rroa:acc25:
+  title: "Estimating Robust Regions of Attraction with Uncertain Equilibrium Points"
+  authors:
+    - "renato"
+    - Torbjoern Cunis
+  venue: acc
+  year: 2025
+  type: Conference
+#  links:
+#    - name: PDF
+#      link: "https://arxiv.org/pdf/2404.14695.pdf" 
+
+observ:acc25:
+  title: "Nonlinear Observer Synthesis for Stochastic Polynomial Dynamical Systems"
+  authors:
+    - "renato"
+    - Torbjoern Cunis
+  venue: acc
+  year: 2025
+  type: Conference
+#  links:
+#    - name: PDF
+#      link: "https://arxiv.org/pdf/2404.14695.pdf"
+
+marc:eurognc24:
+  title: "Trajectory Prediction for Missile Targets: A Probabilistic Approach Using Machine Learning"
+  authors:
+    - Marc Schneider
+    - "renato"
+    - Torbjoern Cunis
+    - Walter Fichter
+  venue: eurognc
+  year: 2024
+  type: Conference
+#  links:
+#    - name: PDF
+#      link: "https://arxiv.org/pdf/2404.14695.pdf"
+
+renato:mthesis:
+  title: "Analysis and Comparison of Iterative Bilinear Sum-of-Squares Region of Attraction Estimation Algorithms"
+  authors:
+    - "renato"
+  year: 2022
+  type: Thesis
+#  links:
+#    - name: PDF
+#      link: "https://arxiv.org/pdf/2404.14695.pdf"
+
