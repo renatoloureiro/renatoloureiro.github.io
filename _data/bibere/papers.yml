@@ -3,7 +3,7 @@ realtime:scitech25:
   authors:
     - "renato"
     - Marc Schneider
-    - Torbjoern Cunis
+    - "cunis"
     - Walter Fichter
   venue: scitech
   year: 2025
@@ -16,7 +16,7 @@ rroa:acc25:
   title: "Estimating Robust Regions of Attraction with Uncertain Equilibrium Points"
   authors:
     - "renato"
-    - Torbjoern Cunis
+    - "cunis"
   venue: acc
   year: 2025
   type: Conference
@@ -28,7 +28,7 @@ observ:acc25:
   title: "Nonlinear Observer Synthesis for Stochastic Polynomial Dynamical Systems"
   authors:
     - "renato"
-    - Torbjoern Cunis
+    - "cunis"
   venue: acc
   year: 2025
   type: Conference
@@ -41,7 +41,7 @@ marc:eurognc24:
   authors:
     - Marc Schneider
     - "renato"
-    - Torbjoern Cunis
+    - "cunis"
     - Walter Fichter
   venue: eurognc
   year: 2024
